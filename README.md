@@ -1,6 +1,6 @@
 # Gurukool
 
-# gatsby-starter-default
+## gatsby-starter-default
 The default Gatsby starter.
 
 For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
@@ -14,7 +14,7 @@ npm install --global gatsby-cli
 
 And run from your CLI:
 ```sh
-gatsby new gatsby-example-site
+gatsby new folder_name kmranrg_git_repo_link.git
 ```
 
 Then you can run it by:
