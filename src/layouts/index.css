@@ -14,7 +14,7 @@ a {
 
 .Hero {
   background: url('../images/wallpaper3.jpg');
-  height: 920px;
+  height: 1040px;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -29,6 +29,7 @@ a {
 
 .Hero h1 {
   margin: 0;
+  padding: 30px;
   color: white;
   font-size: 60px;
   line-height: 1.2;
