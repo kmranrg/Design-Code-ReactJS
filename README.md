@@ -27,3 +27,10 @@ If you want to build the project for deploying it.
 ```sh
 gatsby build
 ```
+
+## Screenshots
+![Screenshot-1](https://github.com/kmranrg/Gurukool/blob/main/screenshots/1.png)   ![Screenshot-2](https://github.com/kmranrg/Gurukool/blob/main/screenshots/2.png)
+
+![Screenshot-3](https://github.com/kmranrg/Gurukool/blob/main/screenshots/3.png)   ![Screenshot-4](https://github.com/kmranrg/Gurukool/blob/main/screenshots/4.png)
+
+![Screenshot-3](https://github.com/kmranrg/Gurukool/blob/main/screenshots/5.png)   ![Screenshot-4](https://github.com/kmranrg/Gurukool/blob/main/screenshots/6.png)
