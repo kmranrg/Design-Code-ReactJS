@@ -23,12 +23,7 @@ cd gatsby-example-site
 gatsby develop
 ```
 
-If you want to build the project:
+If you want to build the project for deploying it.
 ```sh
 gatsby build
 ```
-
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
-
