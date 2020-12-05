@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const FooterGroup = styled.div`
+    width: 100%;
     background: #F1F3F5;
     padding: 50px 0;
     display: grid;
@@ -14,6 +15,10 @@ const Text = styled.p`
     color: #486791;
     max-width: 500px;
     margin: 0 auto;
+
+    @media (max-width: 720px) {
+        max-width: 300px;
+    }
 `
 
 const Button = styled.button`
@@ -35,7 +40,7 @@ const Button = styled.button`
 `
 
 const LinkGroup = styled.div`
-    width: 500px;
+    max-width: 500px;
     margin: 50px auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -48,13 +53,21 @@ const LinkGroup = styled.div`
     a:hover {
         color: black;
     }
+
+    @media (max-width: 720px) {
+        max-width: 300px;
+    }
 `
 
 const Copyright = styled.div`
     color: #486791;
-    max-width: 500px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 0 20px;
+
+    @media (max-width: 720px) {
+        height: 300px;
+    }
 `
 
 const Footer = ({ data, children }) => (

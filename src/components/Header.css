@@ -13,7 +13,7 @@
 }
 
 .HeaderGroup {
-    max-width: 800px;
+    max-width: 100%;
     max-width: 0 auto;
     display: grid;
     grid-template-columns: repeat(5, auto); /* dividing the max-width 500 into 5 equal sections */

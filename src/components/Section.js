@@ -56,7 +56,7 @@ const WaveBottom = styled.div`
 `
 
 const WaveTop = styled.div`
-    position:absolute;
+    position: absolute;
     width: 100%;
     top: -6px;
     transform: rotate(180deg);
