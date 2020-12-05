@@ -64,10 +64,12 @@ const Copyright = styled.div`
     max-width: 100%;
     margin: 0 auto;
     padding: 0 20px;
-
+    
     @media (max-width: 720px) {
-        height: 300px;
+        margin-top: 80px;
+        margin-bottom: 180px;
     }
+    
 `
 
 const Footer = ({ data, children }) => (
@@ -75,8 +77,8 @@ const Footer = ({ data, children }) => (
         <Text>Tweet "Prototype and build apps with React and Swift. New Courses by @kmranrg"</Text>
         <Button>Tweet</Button>
         <LinkGroup>
-            {data.allContentfulLink.edges.map(edge => (
-                <a href={edge.node.url}>{edge.node.title}</a>
+            {data.allContentfulLink.edges.map((edge,index) => (
+                <a key={index} href={edge.node.url}>{edge.node.title}</a>
             ))}
         </LinkGroup>
         <Copyright>{children}</Copyright>
