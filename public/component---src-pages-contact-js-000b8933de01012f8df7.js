@@ -1,2 +1,0 @@
-webpackJsonp([70144966829960],{217:function(e,t,u){"use strict";function n(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var l=u(2),r=n(l),a=function(){return r.default.createElement("div",null,r.default.createElement("img",{src:u(54),width:"100%"}))};t.default=a,e.exports=t.default}});
-//# sourceMappingURL=component---src-pages-contact-js-000b8933de01012f8df7.js.map
