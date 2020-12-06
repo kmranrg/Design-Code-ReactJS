@@ -28,6 +28,10 @@ If you want to build the project for deploying it.
 gatsby build
 ```
 
+## For deploying on Google Firebase
++ Step-1: Open the terminal in working directory and type `sudo npm install -g firebase-tools`
++ Step-2: ``
+
 ## Screenshots
 ![Screenshot-1](https://github.com/kmranrg/Gurukool/blob/main/screenshots/1.png)   ![Screenshot-2](https://github.com/kmranrg/Gurukool/blob/main/screenshots/2.png)
 
