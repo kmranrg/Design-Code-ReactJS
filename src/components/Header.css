@@ -1,0 +1,59 @@
+.Header {
+    position: fixed;
+    width: 100%;
+    padding: 50px 0;
+    z-index: 100; /* so that header always remains on top */
+    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.HeaderScrolled {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px 0;
+    backdrop-filter: blur(20px);
+}
+
+.HeaderGroup {
+    max-width: 100%;
+    max-width: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, auto); /* dividing the max-width 500 into 5 equal sections */
+    align-items: center; /* center vertically */
+    justify-items: center; /* center horizontally */
+}
+
+.Header a {
+    color: white;
+    font-weight: 700;
+}
+
+.Header button {
+    padding: 8px 20px;
+    font-size: 20px;
+    background: #56CCF2;
+    border: none;
+    font-weight: 700;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Header button:hover {
+    background: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    transform: translateY(-3px);
+}
+
+@media (max-width: 640px) {  /* this media query will apply for devices having width less than or equal to 640px */
+    .Header {
+        padding: 10px 0;
+    }
+
+    .HeaderGroup {
+        grid-template-columns: repeat(4, auto);
+    }
+
+    .HeaderGroup a:nth-child(4) { /* for hiding the 4th link element (i.e. workshops) */
+        display: none; 
+    }
+}
